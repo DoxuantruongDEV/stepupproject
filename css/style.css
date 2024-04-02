@@ -1,0 +1,488 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+    
+
+.navbarr {
+    justify-content: space-evenly;
+    display: flex;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    transition: background-color 0.5s ease;
+    z-index: 1000;
+}
+
+.navbarr.scrolled {
+    background-color: #1a1a1a;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 35px 0px 10px 30px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 48px;
+    
+}
+
+nav li a {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.back-scoll{
+    background-position:0%;
+    position: absolute;
+    top: -100%; /* Đẩy ảnh lên trên ngoài vùng nhìn thấy ban đầu */
+    left: 0;
+    width: 100%;
+    animation: slideDown 2.5s ease-in-out forwards;
+}
+
+@keyframes slideDown {
+    0% {
+      top: -100%; /* Bắt đầu từ vị trí ban đầu */
+    }
+    100% {
+      top: 0%; /* Kết thúc ở vị trí dưới cùng */
+    }
+  }
+
+
+nav li a:hover {
+    text-decoration: none;
+    color: rgb(42, 162, 176);
+}
+
+
+
+.phone {
+    background-color:rgb(42, 162, 176);
+}
+
+.bi {
+    color: white;
+}
+
+.bi:hover {
+    color: rgb(42, 162, 176);
+}
+
+.aqua {
+    color: rgb(42, 162, 176);
+}
+
+#nav-list{
+    
+    display: flex;
+    align-items: center
+}
+
+
+.banner {
+    margin-left: 120px;
+}
+
+.content {
+    padding-top: 30vh;
+    padding-left: 17vh;
+}
+
+.large-letters h1{
+    font-size: 50px;
+    width: 100%; 
+    animation:slideAndStopAnimation 2s linear forwards;
+}
+
+@keyframes slideAndStopAnimation {
+    0% {
+        transform: translateX(-100%); 
+    }
+    100% {
+        transform: translateX(0%); 
+    }
+}
+
+.minuscule p{
+    width: 100%; 
+    animation:slideAndStopAnimation 3s linear forwards;
+}
+
+
+
+.click button{
+    width: 35vh;
+    height: 8vh;
+}
+
+.click a button {
+    background-color: rgb(42, 162, 176);
+    border: none;
+    transition: background-color 0.3s ease;
+    animation:slideAndStopAnimation 3s linear forwards;
+}
+
+.click a button:hover {
+    background-color: navajowhite;
+}
+
+.click a button p {
+    font-size: 20px;
+    color: white;
+    padding-top: 1.5vh;
+}
+
+.click a button p:hover {
+    color: #000;
+}
+
+
+.imma {
+    width: 25vh;
+    height:30vh;
+}
+
+
+
+
+.fullcontent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-content {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid white;
+    margin-top: 200px;
+    margin-right: 130px;
+    background-color: white;
+    height: 193px;
+    animation:moveRightToLeft 2s linear forwards;
+}
+
+@keyframes moveRightToLeft {
+    0% {
+        transform: translateX(-1100%); 
+    }
+    100% {
+        transform: translateX(0%); 
+    }
+}
+
+.wrapper{
+    background-color: #000;
+    height: 100vh;
+    width: 100%;
+}
+
+.title-h1 h1{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.title-p p{
+    font-size: 10px;
+    letter-spacing: 0.1px;
+    color: gray;
+    margin-right: 15px;
+}
+
+
+.title-button button{
+    width: 100px;
+    background-color:  rgb(42, 162, 176);
+    border: none;
+    height: 27px;
+}
+
+.title-button button:hover {
+    background-color:#000;
+}
+
+.infomation {
+    
+    margin-top: 40vh ;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 40px 20px 40px;
+    gap: 30px;
+}
+
+.text-aqua h1{
+    font-size: 55px;
+    color: #795b2e;
+}
+
+.text-aqua p{
+    font-size: 19px;
+    color: grey;
+}
+
+.image-32 img{
+    height: 100vh;
+    width: 100%;
+    margin-top: 33vh;
+}
+
+.aquarium-img{
+    width: 40vh;
+    height: 60vh;
+    background-position: center;
+    float: right;
+    margin:10px;
+    object-fit: cover;
+    
+}
+
+
+.image-aquarium{
+    margin-right: 19vh;
+    margin-top: 200px;
+    
+}
+
+.aquarium-img2{
+    float: right;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.some-aquatium2{
+    margin-right:19vh ;
+}
+
+
+.fish-text{
+    z-index: 1000;
+    margin-top: -480px;
+}
+
+.fish-image{
+    height: 89vh;
+    width: 100%;
+    margin-top: 200px;
+    object-fit: cover;
+}
+
+.fish-text{
+    padding-left: 100px;
+    color: white;
+}
+
+/* .h1-text{
+    
+} */
+
+.p-text{
+    padding-top: 30px;
+}
+
+.some-info{
+    display:inline-flex;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+
+.some1{
+   margin: 100px 0px 0px 30px;
+   border: 1px solid #f1f1f1;
+   border-radius: 5%;
+   overflow: hidden;
+}
+
+.some1:hover{
+    box-shadow: -6px 9px 64px -4px rgba(118, 118, 118, 0.25);
+}
+
+.calendar{
+    color:rgb(42, 162, 176);
+    font-size: 15px;
+    /* margin-left: 100px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.calendar:hover{
+    color: gray;
+}
+
+.advertise{
+    color: #221c1c;
+    /* margin-left: 23px; */
+    text-align: left;
+    font-size: 22px;
+}
+
+.advertise:hover{
+    color: rgb(46, 142, 231);
+}
+
+.introduce{
+    /* margin-left: 20px; */
+    color: gray;
+}
+
+.clickdb{
+    margin-left: 90px;
+    height: 40px;
+    width: 120px;
+    border: 1px solid rgb(42, 162, 176);
+    background-color:rgb(42, 162, 176) ;
+}
+
+.clickdb:hover{
+    background-color: white;
+}
+
+.text-click{
+    padding: 9px 16px;
+    margin-bottom: 10px;
+    display: block;
+    max-width: 140px;
+    text-align: center; 
+    border-radius: 99px;
+    background-color: #0f1b4c;
+    color: white;
+}
+
+.text-click:hover{
+    background-color:rgb(42, 162, 176);
+    color: white;
+}
+
+
+.title-some{
+    text-align: center;
+    margin-top: 250px;
+    font-size: 50px;
+    
+}
+
+.footerr{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Chia thành 4 cột bằng cỡ bằng nhau */
+    margin-left: 70px;
+}
+
+.from{
+    margin-top: 50px;
+}
+
+iframe{
+    margin-left: 70px;
+    margin-top: 100px;
+}
+
+footer{
+    background-color: #000;
+    margin-top: 150px;
+}
+
+.title-footer{
+    color: white;
+}
+
+.aquafina{
+    color:rgb(42, 162, 176) ;
+}
+
+.aquafina:hover{
+    color: white;
+}
+
+.comment{
+    padding-left: 10px;
+}
+
+.heding{
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+/* #notification{
+    padding: 5px;
+    border: 2px solid red;
+} */
+
+.box-content{
+    padding: 15px;
+}
+
+/* .box-content:hover{
+    box-shadow: -6px 9px 64px -4px rgba(118, 118, 118, 0.25);
+} */
+
+.even-content{
+    
+}
+
+.even-spuer{
+    width: 775px;
+    margin-left: 290px;
+}
+
+.imagess{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.content-forn{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 30px 0px 30px;
+}
+
+.my-content{
+    border: 1px solid #f1f1f1;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: box-shadow 2s;
+    
+}
+
+.my-content:hover{
+    box-shadow: -6px 9px 64px -4px rgba(118, 118, 118, 0.25);
+}
+
+.color-text{
+    color: #795b2e;
+    padding: 10px;
+}
+
+.content-image img{
+    transition: transform 0.3s ease-in-out 0s;
+    object-fit: cover;
+}
+
+.content-image img:hover{
+    transform: scale(1.1);
+}
+
+.color-text-p{
+    color: grey;
+    width: 700px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.title-my-content{
+    margin-left: 40px;
+}

@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+    
+
+.event-info-1{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 100px;
+}
+
+.info-col-3{
+    max-width: 339px;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: box-shadow 0.5s ;
+}
+
+.info-col-3:hover{
+    box-shadow: -6px 9px 64px -4px rgba(118, 118, 118, 0.25);
+}
+
+.even-title{
+    padding-left: 10px;
+}
+
+.even-title-h1{
+    font-size: 23px;
+    color: #0f1b4c;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.even-title-h1:hover{
+    color: rgb(42, 162, 176);
+}
+
+.event-title-p{
+    color: gray;
+}
+
+.click-event{
+    padding: 9px 16px;
+    margin-bottom: 10px;
+    display: block;
+    max-width: 140px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #0f1b4c;
+    color: white;
+    text-decoration: none;
+}
+
+.click-event:hover{
+    background-color: rgb(42, 162, 176);
+    color: white;
+}
+
+.address{
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-num{
+    border: 1px solid #f1f1f1;
+    width: 120px;
+    height: 120px;
+}
+
+.number{
+    font-size: 60px;
+    color: rgb(42, 162, 176);
+    padding-left: 30px;
+    margin-top: -10px;
+    font-weight: 500;
+}
+
+.today{
+    padding-left: 15px;
+    margin-top: -20px;
+}
+
+.address{
+    margin-top: 15px;
+}
+
+.iconnn{
+    margin-right: 50px;
+}
+
+.click-link{margin-top: 15px;}
+
+.event-image{
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.buy-ticket{
+    margin-left: 125px;
+}
+
+.image-buy{
+    margin-top: 40px;
+}
+
+.title-buy{
+    margin-top: 30px;
+}
+
+.ticket{
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    border:none;
+    background-color: #0f1b4c;
+    color: #f1f1f1;
+    border-radius: 5px;
+}
+
+.ticket:hover{
+    background-color: rgb(42, 162, 176);
+}
+
+.click-buy-ticket{
+    width: 500px;
+    margin-left: 300px;
+    margin-top: 50px;
+    border-radius: 5px;
+    transition: box-shadow 2s;
+}
+
+.click-buy-ticket:hover{
+    box-shadow: -6px 9px 64px -4px rgba(118, 118, 118, 0.25);
+}
+
+.title-even-info{
+    width: 900px;
+    margin-left: 120px;
+    margin-top: 100px;
+    color: #795b2e;
+}
