@@ -486,3 +486,240 @@ footer{
 .title-my-content{
     margin-left: 40px;
 }
+
+.news{
+    float: left;
+    width: 30%;
+    height: 300px; 
+    padding: 20px;
+}  
+
+
+.containerr{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+}
+
+.boxx{
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.hotsnew {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.me_new{
+    display: flex;
+    gap: 15px;
+}
+
+.event-info{
+    display: flex;
+    gap: 50px;
+}
+.eve_text{
+    width: 30%;
+}
+.eve_img{
+    width: 70%;
+    
+}
+.imge{
+    border-radius: 15px;
+}
+
+.eve_text h4{
+    margin-bottom: 15px ;
+}
+.eve_text p {
+    margin-top: 15px;
+}
+.eve_text span {
+    color: #98a1b3;
+}
+
+.eve_text a{
+    color: #ff8c80;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.eve_text a i {
+    margin-left: 5px;
+}
+
+.box-img img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 415px;
+    height: 200px;
+}
+.box-text{
+        padding: 15px;
+}
+.box-text h4 a {
+    text-decoration: none;
+    color: #000;
+    
+}
+
+.hea-img img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 415px;
+    height: 193px;
+
+}
+.hea-text h4 a{
+    text-decoration: none;
+    color: #000;
+}
+.hea-text{
+    padding: 10px;
+    width: 415px;
+    height: 100px;
+    
+}
+.sha-bor {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.hea-text a{
+    text-decoration: none;
+    align-items: center;
+
+}
+
+.ser-vice{
+    text-align: center;
+}
+.service-text{
+    text-align: center;
+}
+.ove-tet h6{
+    display: flex;
+    flex-direction: column;
+    
+}
+.unde-text p{
+ color: #8c8686;   
+}
+
+.unde-logo{
+    font-size: 19px;
+    
+}
+
+
+
+.Partners-head h1{
+    text-align: center;
+}
+
+.Partners-head h5{
+    text-align: center;
+}
+.logo-partner{
+    width: 237px;
+    height: 100px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lote{
+    margin-right: 15px;
+}
+.pack{
+    width: 441px;
+    height: 237px;
+    position: absolute;
+    top: 450px;
+}
+.te{
+    color: #666E80;
+}
+
+.our-skill{
+    background-image: url(/assets/images/about_img_three.png);
+    background-size: cover;
+        
+}
+
+.tem-title{
+    text-align: center;
+}
+
+.name-bor{
+    border-radius: 15px;
+}
+.mem-lis{
+    text-align: center;
+}
+
+.skil{
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+.skill{
+    width: 80%;
+    background-color:#f0ffff00;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.skill h2{
+    color: #ffffff;
+}
+.lgo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.titel h1{
+ text-align: center;
+ color: #0f0f74;
+}
+.bor-p{
+    display: block;
+    
+}
+.about-hea{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 40px 20px 40px;
+    gap: 30px;
+}
+.progress-bar-container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 20px;
+    background-color: #2196F3;
+    width: 0;
+    transition: width 1.5s ease; /* Add smooth animation */
+}
+.progress-bar-container p{
+        display: flex;
+        justify-content: center;
+}
