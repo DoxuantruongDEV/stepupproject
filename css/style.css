@@ -429,10 +429,6 @@ footer{
     box-shadow: -6px 9px 64px -4px rgba(118, 118, 118, 0.25);
 } */
 
-.even-content{
-    
-}
-
 .even-spuer{
     width: 775px;
     margin-left: 290px;
@@ -573,5 +569,5 @@ footer{
 }
 
 .thongtin{
-    color: grey;
+    color:grey;
 }
