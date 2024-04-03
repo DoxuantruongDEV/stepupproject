@@ -83,3 +83,57 @@ if (elements.length > 2) {
   var el = elements[2];
   el.className = 'cool';
 }
+
+const progressBar = document.getElementById('myProgressBar');
+
+let progressValue = 0;
+
+function updateProgressBar() {
+    if (progressValue < 90) {
+        progressValue += 1; // Increase progress by 1% per second
+        progressBar.style.width = `${progressValue}%`;
+        requestAnimationFrame(updateProgressBar);
+    }
+}
+
+updateProgressBar();
+
+const progressbra = document.getElementById('myProgressbra');
+
+let progresValue = 0;
+
+function updateProgressBra() {
+  if (progresValue < 80) {
+      progresValue += 1; // Increase progress by 1% per second
+      progressbra.style.width = `${progresValue}%`;
+      requestAnimationFrame(updateProgressBra);
+  }
+}
+
+updateProgressBra();
+
+const progressBa = document.getElementById('myProgressBa');
+
+let progresValu = 0;
+
+function updateProgresBa() {
+    if (progresValu < 95) {
+        progresValu += 1; // Increase progress by 1% per second
+        progressBa.style.width = `${progresValu}%`;
+        requestAnimationFrame(updateProgresBa);
+    }
+}
+updateProgresBa();
+
+const progressBr = document.getElementById('myProgressBr');
+
+let progresVale = 0;
+
+function updateProgresBr() {
+    if (progresVale < 88) {
+        progresVale += 1; // Increase progress by 1% per second
+        progressBr.style.width = `${progresVale}%`;
+        requestAnimationFrame(updateProgresBr);
+    }
+}
+updateProgresBr();

@@ -486,3 +486,92 @@ footer{
 .title-my-content{
     margin-left: 40px;
 }
+
+.ticket-on-buy{
+    border: 1px solid #ececec;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.ticket-on-buy:hover{
+    border: 1px solid rgb(232,149,47);
+}
+
+.all-ticket{
+    margin: 100px;
+}
+
+.if-ticket-buy{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ececec;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.the-cost{
+    border-top: 1px solid #ececec;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.hehehe{
+    display: inline;
+    float: right;
+    margin-left: 50px;
+    margin-top: 15px;
+    
+}
+
+.Book-tickets{
+    border-top: 1px solid #ececec;
+    margin-top: 60px;
+}
+
+.hohoho{
+    margin-left: 970px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.endow{
+    margin-left: 20px;
+}
+
+.bi .bi-caret-right-fill{
+    margin-top: 5px;
+}
+
+.click-now{
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: rgb(232,149,47);
+    border: 1px solid rgb(232,149,47);
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.tieude{
+    margin: 100px;
+}
+
+.dieukhoan{
+    border: 1px solid #ececec;
+    margin-left: 90px;
+    margin-right: 90px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.hihihihi{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    
+}
+
+.thongtin{
+    color: grey;
+}
