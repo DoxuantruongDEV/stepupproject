@@ -529,6 +529,12 @@ footer{
     margin-left: 970px;
     margin-top: 20px;
     margin-bottom: 20px;
+    background-color: rgb(232,149,47);
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 10px;
 }
 
 .endow{
@@ -540,13 +546,13 @@ footer{
 }
 
 .click-now{
-    width: 150px;
-    height: 50px;
+    font-weight: 600;
+    color: white;  
+}
+
+.click-now:hover{
     color: white;
-    background-color: rgb(232,149,47);
-    border: 1px solid rgb(232,149,47);
-    border-radius: 10px;
-    font-weight: 500;
+    text-decoration: none;
 }
 
 .tieude{
@@ -570,4 +576,115 @@ footer{
 
 .thongtin{
     color:grey;
+}
+
+.form-ticket{
+    border: 1px solid rgb(232,149,47);
+    width: 700px;
+    height: 200px;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 75px;
+}
+.price-ticket{
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+}
+
+.buy-now{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.now-tick{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.info-people{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.info-pricee{
+    margin-top: 35px;
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+.showticket{
+    background-color: rgb(245,246,250);
+}
+
+.if-item-ticket{
+    background-color: rgb(254,252,251);
+    height: 300px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.enterr{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-enter{
+    width: 400px;
+    height: 45px;
+    border-radius: 5px;
+    padding-left: 10px;
+    outline: none;
+    border: 1px solid rgb(211,218,218);
+}
+
+.enter-info{
+    background-color: rgb(254,252,251);
+    height: 250px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.customer{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.select{
+    border: 1px solid rgb(211,218,218);
+    margin-top: 20px;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    width: 850px;
+    margin-left: 8px;
+}
+
+.select:hover{
+    border:1px solid rgb(232,149,47);
+}
+
+.on-click{
+    height: 50px;
+    width: 150px;
+    font-weight: 600;
+    color: white;
+    overflow: hidden;
+    outline: none;
+    background-color: rgb(232,149,47);
+    border: 1px solid rgb(232,149,47);
+    border-radius: 5px;
+    margin-left: 710px;
+}
+
+.pay{
+    background-color: rgb(254,252,251);
+    height: 500px;
+    margin-top: 50px;
+    border-radius: 15px;
+    width: 870px;
+
 }
